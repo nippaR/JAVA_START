@@ -28,27 +28,65 @@ class Hello{
 
         double G = 12e02;
 
-        System.out.println(G);   
+        // System.out.println(G);   
 
         //Type conversion and casting 
         //conversion 
         byte b = 127;
         int a = 257;
-        a = b;
-        System.out.println(a);
+        // a = b;
+        // System.out.println(a);
 
         //casting 
-        byte t = 127;
-        int d = 12;
+        // byte t = 127;
+        // int d = 12;
 
-        t = (byte) d;
-        System.out.println(t);
+        // t = (byte) d;
+        // System.out.println(t);
 
-        // to perform this in moduler operation
-        int k = 257;
-        byte z = (byte)k;
+        // to perform this in moduler operation (%- moduler operation - remainder)
+        // int k = 257;
+        // byte z = (byte)k;
 
-        System.out.println(z);
+        // System.out.println(z);
 
+        //Type Promtion 
+
+        // byte p = 10;
+        // byte o = 30;
+
+         //java automatic convert this bytes in to int
+        //int result = p * o;
+        //System.out.println("This is type promtion : " + result);
+       
+        //Arithmetic operation
+
+        int num = 10;
+
+        num += 2; // num = num + 2;
+
+        //num =- 2; // num = num - 2;
+
+        //num =* 2; // num = num * 2;
+
+        //num++; post-increment "fetch the value first and then increment"
+        //++num; pre-increment  "increment the value first and then fetch"
+
+        System.out.println(num); 
+
+        //Logical operators (&& -> and, || -> or, ! -> not)
+        int r = 10;
+        int j = 4;
+        int q = 12;
+        int h = 2;
+
+        boolean output = (r > j) && (q > h); //true
+
+        //short circuit operator - this one checks the first condition and if it is false then it will not check the second condition
+        //boolean output = (r > j) && (q < h); //false
+
+        System.out.println(output);
+
+        //Bitwise operator (& -> and, | -> or, ^ -> xor, ~ -> not, << -> left shift, >> -> right shift, >>> -> zero fill right shift)
     }
 }
