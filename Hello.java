@@ -24,7 +24,7 @@ class Hello{
 
         //literal
 
-        int num1 = 100_00_00_0; //print 10000000
+        //int num1 = 100_00_00_0; //print 10000000
 
         double G = 12e02;
 
