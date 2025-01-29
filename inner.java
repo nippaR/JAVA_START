@@ -3,7 +3,7 @@ class A {
         System.out.println("Inside A");
     }
 
-    class B {
+    static class B {
         public void display() {
             System.out.println("Inside B");
         }
@@ -22,7 +22,7 @@ public class inner {
         
         // A.B obj2 = obj1.new B();
         //but we can add static keyword to class B to make it static and then we can create object of class B without creating object of class A
-        A.B obj2 = obj1.new B();
+        A.B obj2 = new A.B();
         obj2.display();
     }
 
