@@ -25,9 +25,9 @@ public class arrays{
         }
 
         //implement the new array 
-        int arr[] = new int[5];//this arry size in 5
+        // int arr[] = new int[5];//this arry size in 5
 
-        double num2[] = new double[5];
+        // double num2[] = new double[5];
 
     }
 

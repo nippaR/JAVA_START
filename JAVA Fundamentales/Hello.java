@@ -26,14 +26,14 @@ class Hello{
 
         //int num1 = 100_00_00_0; //print 10000000
 
-        double G = 12e02;
+        // double G = 12e02;
 
         // System.out.println(G);   
 
         //Type conversion and casting 
         //conversion 
-        byte b = 127;
-        int a = 257;
+        // byte b = 127;
+        // int a = 257;
         // a = b;
         // System.out.println(a);
 

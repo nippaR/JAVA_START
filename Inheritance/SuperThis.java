@@ -34,5 +34,6 @@ public class SuperThis{
     public static void main(String[] args) {
         
         B obj = new B(5);
+        obj.notify();
     }
 }
