@@ -1,6 +1,10 @@
 package Exceptions;
 
-
+class ThanujaException extends Exception{
+    public ThanujaException(String s){
+        super(s);
+    }
+}
 
 public class exceptionH {
     
@@ -15,13 +19,20 @@ public class exceptionH {
             System.out.println("output is :" + j);
             // System.out.println("Length of the string is :" + str.length());
             if (i == 0) {
-                throw new ArithmeticException("This is not possible");
+                // throw new ArithmeticException("This is not possible");
+                throw new ThanujaException("This is a custom exception");
             }
         }
-        catch(ArithmeticException e){
-            j= 18/1;
-            System.out.println("This is a Default Value outputs :"+ j + e);
+        //custom exception
+        catch(ThanujaException e){
+            System.out.println("This is a custom exception :" + e);
+            j = 18/1;
+            System.out.println("This is a Default Value outputs :"+ j);
         }
+        // catch(ArithmeticException e){
+        //     j= 18/1;
+        //     System.out.println("This is a Default Value outputs :"+ j + e);
+        // }
         // catch(ArithmeticException e){
         //     System.out.println("Somthing Went Wrong :" + e);
         // }
