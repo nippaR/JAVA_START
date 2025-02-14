@@ -17,3 +17,5 @@ public class thoEx{
         }
     }
 }
+
+// Output: This is a custom exception :java.lang.ClassNotFoundException: Thanuja
