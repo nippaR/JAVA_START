@@ -31,10 +31,10 @@ public class first {
     public static void main(String[] args) {
         A obj1 = new A();
 
-        obj1.setPriority(Thread.MAX_PRIORITY-1);
+        // obj1.setPriority(Thread.MAX_PRIORITY-1);
 
         try{
-            Thread.sleep(2);   
+            Thread.sleep(20);   
         }catch(Exception e){
             e.printStackTrace();
         }
