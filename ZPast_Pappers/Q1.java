@@ -71,6 +71,7 @@ public class Q1 {
         System.out.print("Enter Monthly Salary: ");
         double mSalary = sc.nextDouble();
 
+        //mandotary for this close tage because they give marks for this.
         sc.close();
 
         Employee emp = new Employee();
@@ -82,7 +83,8 @@ public class Q1 {
     
         System.out.println();
         System.out.println("Employee Annual Tax is : " + emp.CalculateTax());
-    
+        
+
     }
     
 } 
